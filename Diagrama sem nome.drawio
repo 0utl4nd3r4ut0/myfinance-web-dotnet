@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T03:56:12.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pRY0y7V-9SBlXf-SW3Aa" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T04:06:03.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xTyXtmw3Qyd6OGmnC4PP" version="22.1.5" type="github">
   <diagram name="Página-1" id="bxvynTs7vyTyOahjGOtV">
     <mxGraphModel dx="1514" dy="1052" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -382,6 +382,18 @@
         </mxCell>
         <mxCell id="HXcUSBCyM4X6-Kzy9UrR-144" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HXcUSBCyM4X6-Kzy9UrR-143" target="HXcUSBCyM4X6-Kzy9UrR-143">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HXcUSBCyM4X6-Kzy9UrR-145" value="Tecnologia, framework" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="372" width="213" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HXcUSBCyM4X6-Kzy9UrR-146" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="HXcUSBCyM4X6-Kzy9UrR-145">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="36" y="478" as="sourcePoint" />
+            <mxPoint x="86" y="428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXcUSBCyM4X6-Kzy9UrR-147" value="Esse desenho nos mostra as conexões de cada componente do software, ele é uma aplicação WEB em .NET com a LIB ASP.net MVC, ele se comunica com a infraestrutura e com a camada serviços, e serviços conversa com domínio.&lt;br&gt;A aplicação myFinance não comunica direto com o banco e nem com o domínio.&lt;br&gt;A camada infraestrutura tem duas sub camada Data Acess Layer (DAL) e common ( coisas comuns para o projeto). Serviços detem os recursos e regras de dominio." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="684" width="574" height="153" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
