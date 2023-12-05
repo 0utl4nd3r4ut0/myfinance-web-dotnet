@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T03:55:16.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vi9mmzKV85YuITb5fI2T" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T03:56:12.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pRY0y7V-9SBlXf-SW3Aa" version="22.1.5" type="github">
   <diagram name="Página-1" id="bxvynTs7vyTyOahjGOtV">
     <mxGraphModel dx="1514" dy="1052" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -309,10 +309,10 @@
           <mxGeometry x="765" y="-254" width="207" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HXcUSBCyM4X6-Kzy9UrR-127" value="Arquitetura do software" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-21" y="353" width="193" height="30" as="geometry" />
+          <mxGeometry x="212" y="374" width="193" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HXcUSBCyM4X6-Kzy9UrR-128" value="Myfinace Web - Diagrama arquitetural" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillStyle=auto;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-12" y="392" width="321" height="30" as="geometry" />
+          <mxGeometry x="148" y="411" width="321" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HXcUSBCyM4X6-Kzy9UrR-129" value="Myfinance Web&lt;br&gt;ASP.NET MVC&lt;br&gt;(.NET 6.0)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-12" y="478" width="120" height="60" as="geometry" />
@@ -376,6 +376,12 @@
         </mxCell>
         <mxCell id="HXcUSBCyM4X6-Kzy9UrR-142" value="SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="483" y="476" width="60" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="HXcUSBCyM4X6-Kzy9UrR-143" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-59" y="451" width="659" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="HXcUSBCyM4X6-Kzy9UrR-144" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="HXcUSBCyM4X6-Kzy9UrR-143" target="HXcUSBCyM4X6-Kzy9UrR-143">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
