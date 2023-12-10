@@ -3,6 +3,7 @@ Projeto final da disciplina Práticas de implementação e evolução de softwar
 
 Ambiente:
 - Este projeto foi criado utilizando-se o ambiente .NET;
+  
   VScode extensions:
 
 
