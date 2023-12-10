@@ -11,4 +11,4 @@ Ambiente:
   ![image](https://github.com/0utl4nd3r4ut0/myfinance-web-dotnet/assets/148460805/c75091ac-c47a-443c-b110-775238234dc4)
 
 - Framework necessários:
-  1.entity Framework: dotnet add package Microsoft.EntityFrameworkCore --version 8.0.0
+  1.entity Framework: Comando CLI para instalação -> dotnet add package Microsoft.EntityFrameworkCore --version 8.0.0
