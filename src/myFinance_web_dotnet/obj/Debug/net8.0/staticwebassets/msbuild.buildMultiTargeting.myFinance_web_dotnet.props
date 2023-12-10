@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\myFinance_web_dotnet.props" />
+</Project>

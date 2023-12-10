@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\myFinance_web_dotnet.props" />
+</Project>

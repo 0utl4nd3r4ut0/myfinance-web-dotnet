@@ -1,0 +1,15 @@
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\bin\Debug\net8.0\myfinanceApp.exe
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\bin\Debug\net8.0\myfinanceApp.deps.json
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\bin\Debug\net8.0\myfinanceApp.runtimeconfig.json
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\bin\Debug\net8.0\myfinanceApp.dll
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\bin\Debug\net8.0\myfinanceApp.pdb
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\myfinanceApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\myfinanceApp.AssemblyInfoInputs.cache
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\myfinanceApp.AssemblyInfo.cs
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\myfinanceApp.csproj.CoreCompileInputs.cache
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\myfinanceApp.sourcelink.json
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\myfinanceApp.dll
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\refint\myfinanceApp.dll
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\myfinanceApp.pdb
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\myfinanceApp.genruntimeconfig.cache
+C:\Users\MEUCOMPUTADOR\Desktop\Pós Graduação\Práticas de implementação e evolução de software\Myfinance App\src\obj\Debug\net8.0\ref\myfinanceApp.dll
