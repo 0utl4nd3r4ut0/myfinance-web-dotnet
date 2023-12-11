@@ -1,0 +1,48 @@
+@model TransacaoModel
+
+@{
+    ViewData["Title"] = "Registro de Transações";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-controller="Transacao" asp-action="Cadastro" method="POST">
+    <div class="container">
+        <label class="form-label">Histórico</label>
+        <div class = "mb-3">
+            <input type="hidden" id="txtid" class="form-control" asp-for="Id" /> <!--Serve para dizer se é cadastro de um novo item ou atualização de um existente -->
+            <input type="text" id=txtNome class="form-control" asp-for="Historico" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Item Plano Conta</label>
+            @Html.DropDownListFor(m => m.PlanoContaId, Model.PlanoConta, new { @class="form-select"})
+        </div>
+
+        <div class="mb-3">
+            <label>@Html.RadioButtonFor(m => m.Tipo, "D")Despesas</label>
+             <label>@Html.RadioButtonFor(m => m.Tipo, "R")Receita</label>
+        </div>
+
+        <div class = "mb-3">
+        <label class="form-label">Data</label>
+            <input type="date" id=txtData class="form-control" asp-for="Data" />
+        </div>
+
+        <div class = "mb-3">
+        <label class="form-label">Valor</label>
+            <input type="number" id=txtData class="form-control" asp-for="Valor" />
+        </div>
+
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary btn-lg">Salvar</button>
+            <button type="button" class="btn btn-secondary btn-lg" onclick="Voltar()">Cancelar</button>
+        </div>
+    </div>
+</form>
+
+<script>
+    function Voltar(){
+        window.location.href = "../PlanoConta/Index"
+    }
+</script>
