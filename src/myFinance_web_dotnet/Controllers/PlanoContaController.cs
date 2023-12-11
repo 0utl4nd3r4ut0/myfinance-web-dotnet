@@ -7,7 +7,7 @@ using myFinance_web_dotnet.Services;
 
 namespace myFinance_web_dotnet.Controllers;
 
-[Route("[controller]")]
+[Route("[Controller]")]
 public class PlanoContaController : Controller
 {
     private readonly ILogger<PlanoContaController> _logger;
@@ -29,42 +29,6 @@ public class PlanoContaController : Controller
 
     [HttpGet]
     [Route("Index")]
-    public IActionResult Index()
-
-    [HttpGet]
-    [Route("Cadastro")]
-    [Route("Cadastro/{id}")]
-
-    public IActionResult Cadastro(int? id)
-    {
-        if (id != null)
-        {
-            var registro = _PlanoContaService.RetornarRegistro((int)id);
-            return View(registro);
-        }
-
-        return View();
-    }
-
-    [HttpPost]
-    [Route("Cadastro")]
-    [Route("Cadastro/{id}")]
-
-    public IActionResult Cadastro(PlanoContaModel model)
-    {
-        _PlanoContaService.Salvar(model);
-        return RedirectToAction("Index");
-    }
-
-    [HttpGet]
-    [Route("Excluir/{id}")]
-
-    public IActionResult Excluir(int id)
-    {
-        _PlanoContaService.Excluir(id);
-        return RedirectToAction("Index");
-    }
-
     public IActionResult Index()
     {
 
@@ -90,7 +54,38 @@ public class PlanoContaController : Controller
         return View();
     }
 
+    [HttpGet]
+    [Route("Cadastro")]
+    [Route("Cadastro/{id}")]
+    public IActionResult Cadastro(int? id)
+    {
+        if (id != null)
+        {
+            //var registro = _PlanoContaService.RetornarRegistro((int)id);
+            //return View(registro);
+        }
+        return View();
+    }
 
+    [HttpPost]
+    [Route("Cadastro")]
+    [Route("Cadastro/{id}")]
+    public IActionResult Cadastro(PlanoContaModel model)
+    {
+        //_PlanoContaService.Salvar(model);
+        return RedirectToAction("Index");
+    }
+
+    [HttpGet]
+    [Route("Excluir/{id}")]
+    public IActionResult Excluir(int id)
+    {
+        //_PlanoContaService.Excluir(id);
+        return RedirectToAction("Index");
+    }
+
+
+    
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
