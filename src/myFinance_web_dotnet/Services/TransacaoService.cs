@@ -13,12 +13,16 @@ namespace myFinance_web_dotnet.Services
 
         private readonly IMapper _mapper;
 
+        private readonly IPlanoContasService _planoContaService;
+
         public TransacaoService(
             MyFinanceDbContext myFinanceDbContext,
+            IPlanoContasService planoContasService,
             IMapper mapper)
         {
             _myFinanceDbContext = myFinanceDbContext;
             _mapper = mapper;
+            _planoContaService = planoContasService;
         }
 
         public void Excluir(int id)
@@ -45,6 +49,7 @@ namespace myFinance_web_dotnet.Services
 
         public void Salvar(TransacaoModel model)
         {
+            var tipoTransacao = _planoContaService.RetornarRegistro(model.PlanoContaId).Tipo;
             var instancia = new Transacao()
             {
                 Id = model.Id,
@@ -52,7 +57,7 @@ namespace myFinance_web_dotnet.Services
                 Data = model.Data,
                 Valor = model.Valor,
                 PlanoContaId = model.PlanoContaId,
-                Tipo = model.Tipo
+                Tipo = tipoTransacao
             };
 
             if (instancia.Id == null)

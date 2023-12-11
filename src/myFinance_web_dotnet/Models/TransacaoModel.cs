@@ -8,6 +8,7 @@ namespace myFinance_web_dotnet.Models
       
         public int? Id { get; set; }
         public string Historico { get; set; } 
+
         public string Tipo { get; set; }
         public decimal Valor { get; set; }
         public int PlanoContaId { get; set; } //persiste os valores a serem subtituidos no DB
