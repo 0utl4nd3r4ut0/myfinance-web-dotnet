@@ -2,7 +2,9 @@
 Projeto final da disciplina Práticas de implementação e evolução de software - PUC Minas -curso de pós graduação em Eng Software 2023
 
 Ambiente:
-- Este projeto foi criado utilizando-se o ambiente .NET;
+- Este projeto foi criado utilizando-se o ambiente .NET - net 8.0;
+- Sdk: Microsoft.NET.Sdk.Web;
+- Sql server 2019;
   
   VScode extensions:
 
@@ -19,3 +21,8 @@ Ambiente:
   3.Automapper: Comando CLI para instalação -> dotnet add package AutoMapper --version 12.0.1
 
   4. AutoMapper.Extensions.Microsoft.DependencyInjection: Comando CLI para instalação -> dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.1
+ 
+
+Etapa Inicial:
+
+Criar tabelas necessárias no Sql Server utilizando-se o Query presente na pasta Sql;
