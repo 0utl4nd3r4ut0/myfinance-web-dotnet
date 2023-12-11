@@ -48,8 +48,7 @@ public class PlanoContaController : Controller
         //ViewBag.ListaPlanoContas = listaPlanoContaModel;
 
         var listaPlanoConta =_PlanoContaService.ListarPlanoContas();
-        var lista = _mapper.Map<IEnumerable<PlanoContaModel>>(listaPlanoConta);
-        ViewBag.ListaPlanoContas = lista;
+        ViewBag.ListaPlanoContas = listaPlanoConta;
 
         return View();
     }
@@ -61,8 +60,8 @@ public class PlanoContaController : Controller
     {
         if (id != null)
         {
-            //var registro = _PlanoContaService.RetornarRegistro((int)id);
-            //return View(registro);
+            var registro = _PlanoContaService.RetornarRegistro((int)id);
+            return View(registro);
         }
         return View();
     }
@@ -72,7 +71,7 @@ public class PlanoContaController : Controller
     [Route("Cadastro/{id}")]
     public IActionResult Cadastro(PlanoContaModel model)
     {
-        //_PlanoContaService.Salvar(model);
+        _PlanoContaService.Salvar(model);
         return RedirectToAction("Index");
     }
 
@@ -80,7 +79,7 @@ public class PlanoContaController : Controller
     [Route("Excluir/{id}")]
     public IActionResult Excluir(int id)
     {
-        //_PlanoContaService.Excluir(id);
+        _PlanoContaService.Excluir(id);
         return RedirectToAction("Index");
     }
 

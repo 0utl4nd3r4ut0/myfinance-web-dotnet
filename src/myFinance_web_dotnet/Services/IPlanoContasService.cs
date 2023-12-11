@@ -1,15 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using myFinance_web_dotnet;
-
-using myFinance_web_dotnet.Domain;
+using myFinance_web_dotnet.Models;
 
 namespace myFinance_web_dotnet.Services
 {
     public interface IPlanoContasService
     {
-        IEnumerable<PlanoConta> ListarPlanoContas();
+        IEnumerable<PlanoContaModel> ListarPlanoContas();
+
+        void Salvar(PlanoContaModel model);
+
+        PlanoContaModel RetornarRegistro(int id);
+
+        void Excluir(int id);
     }
 }
