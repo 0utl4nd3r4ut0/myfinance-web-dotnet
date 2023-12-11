@@ -17,3 +17,5 @@ Ambiente:
   2.Sql Server Framework: Comando CLI para instalação -> dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.0
   
   3.Automapper: Comando CLI para instalação -> dotnet add package AutoMapper --version 12.0.1
+
+  4. AutoMapper.Extensions.Microsoft.DependencyInjection: Comando CLI para instalação -> dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection --version 12.0.1
